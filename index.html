@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Conference Connect</title>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -10,36 +10,42 @@
 <nav>
 <div class="logo">Conference Connect</div>
 <ul>
-<li>Home</li><li>Events</li><li>Submit Event</li><li>Contact</li>
+<li><a href="#home">Home</a></li>
+<li><a href="#events">Events</a></li>
+<li><a href="#submit">Submit Event</a></li>
+<li><a href="#contact">Contact</a></li>
 </ul>
 </nav>
 
-<header class="hero">
+<header class="hero" id="home">
 <h1>Conference Connect</h1>
-<p>Discover Conferences, Webinars, Workshops & Academic Events</p>
-<input type="text" placeholder="Search events...">
+<p>Discover Conferences, Webinars, Workshops, FDPs & Seminars Worldwide</p>
+<input type="text" placeholder="Search Events">
 </header>
 
-<section class="section">
+<section class="section" id="events">
 <h2>Featured Events</h2>
 <div class="cards">
-<div class="card"><h3>International Nursing Conference</h3><p>20 Aug 2026</p></div>
-<div class="card"><h3>Research Methodology Workshop</h3><p>25 Aug 2026</p></div>
-<div class="card"><h3>Healthcare Webinar Series</h3><p>30 Aug 2026</p></div>
+<div class="card"><h3>International Nursing Conference</h3><p>Date: 20 August 2026</p></div>
+<div class="card"><h3>Research Methodology Workshop</h3><p>Date: 25 August 2026</p></div>
+<div class="card"><h3>Healthcare Webinar Series</h3><p>Date: 30 August 2026</p></div>
 </div>
 </section>
 
-<section class="section">
-<h2>Submit an Event</h2>
-<form>
-<input placeholder="Event Title">
-<input placeholder="Organizer">
-<input type="date">
-<input placeholder="Registration Link">
-<button>Submit</button>
-</form>
+<section class="section" id="submit">
+<h2>Submit Your Event</h2>
+<p>Organizing a conference, webinar, workshop, seminar or FDP? Submit it below.</p>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScnJNv8HIxkjhVYql1QeLmuwJ7vK3Jv8r8EPfhTNx78_g6qUA/viewform?embedded=true"
+width="100%" height="1200" frameborder="0">Loading…</iframe>
 </section>
 
-<footer>© Conference Connect</footer>
+<section class="section" id="contact">
+<h2>Contact</h2>
+<p>Email: conferenceconnect@gmail.com</p>
+</section>
+
+<footer>
+<p>© 2026 Conference Connect. All Rights Reserved.</p>
+</footer>
 </body>
 </html>
